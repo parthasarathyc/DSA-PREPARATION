@@ -33,3 +33,6 @@ class Solution:
                 else: min_of_right = min(nums1[i], nums2[j])
 
                 return (max_of_left + min_of_right) / 2.0
+sol = Solution()
+print(sol.findMedianSortedArrays([1,3], [2]))       # Output: 2.0
+print(sol.findMedianSortedArrays([1,2], [3,4]))     # Output: 2.5
